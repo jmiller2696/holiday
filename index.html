@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holiday Cocktails</title>
+    <script src="./lib/jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+    <style>
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+      }
+      .card {
+        width: 200px;
+        border: 2px solid #990000;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        background-color: #fdf3e6;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      
+      .info {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: #990000;">Holiday Cocktails</h1>
+    <p style="text-align: center;">Hover over a card to see the recipe. Click to reveal calories!</p>
+    <div class="wrapper"></div>
+  </body>
+</html>
